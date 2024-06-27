@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+    height: 60px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container button{
+    border: none;
+    background-color: transparent;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.main_container div{
+
+    text-align: center;
+    height: 500px;
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container div, .main_container p, .main_container h2{
+    margin-bottom: 24px;
+}
+
+.main_container h2{
+    font-size: 40px;
+}
+
+.main_container p{
+    font-style: italic ;
+}
+
+.main_container button{
+        padding: 16px 18px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+}
+
+.dark_mode{
+    background-color: black;
+    height: 100vh;
+}
+
+.dark_mode .container{
+        color: white;
+}
+
+.dark_mode .container button{
+    color: white;
+    background-color: transparent;
+}
+
+.dark_mode .main_container div h2{
+    color: white;
+}
+
+.dark_mode .main_container div p{
+        color: white;
+}
+
+.light_mode .main_container button{
+    background-color: black;
+    color: white;
+}
